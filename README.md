@@ -20,22 +20,6 @@ Atividade avaliativa da disciplina de Machine Learning. Análise completa do dat
 | 7 | Avaliação da clusterização: Silhouette, Davies-Bouldin, Calinski-Harabasz | 1.5 |
 | 8 | Reflexão sobre o pipeline | 1.0 |
 
-## Principais resultados
-
-**Modelos supervisionados (F1-macro no test set):**
-
-| Modelo | F1-macro | Accuracy |
-|--------|----------|----------|
-| Árvore de Decisão | 0.405 | 0.448 |
-| MLP | 0.385 | 0.569 |
-| Naive Bayes | 0.258 | 0.309 |
-
-**Clustering (k=3, determinado pelo método do cotovelo):**
-
-- K-means produziu clusters balanceados (~36% / ~41% / ~23%)
-- Métodos hierárquicos colapsaram em alta dimensionalidade (Ward: 97,6% em um cluster; Complete: 100%)
-- Silhouette baixo (~0.03) é esperado em dados clínicos de 82 features com classes sobrepostas
-
 ## Como executar
 
 ```bash
